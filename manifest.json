@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Short Form Content Blocker",
+    "version": "0.0.1",
+    "description": "Productivity extension that blocks addictive short form video content scrolling.",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    },
+    "action": {
+        "default_icon": {
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+        }
+    }, 
+    "host_permissions": ["<all_urls>"],
+    "permissions": ["scripting","tabs"]
+}
